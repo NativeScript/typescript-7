@@ -1,0 +1,21 @@
+{
+  "name": "ns-xml",
+  "main": "app/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@nativescript/core": "~9.0.0",
+    "@nativescript/theme": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@nativescript/ios": "~9.0.0",
+    "@nativescript/types": "~9.0.0",
+    "@nativescript/webpack": "~5.0.36",
+    "patch-package": "^8.0.1",
+    "typescript": "~7.0.2"
+  }
+}
